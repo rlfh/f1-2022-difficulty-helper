@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif !important;
+    max-width: 800px;
+    background-color: #f7f4f1;
+}
+
+.footer
+{
+    heigth: 50px;
+}
+
+.h2, .h3, .h4 {
+    font-weight: 700;
+}
+
+.chrono-number
+{
+    font-size: 26px;
+    text-align: center;
+    width: 60px;
+}
+
+.chrono-number-wide
+{
+    width: 120px;
+}
+
+.chrono-separator
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.delta-positive 
+{
+    background-color: red !important;
+    color: white; 
+}
+
+.delta-negative
+{
+    background-color: green !important;
+    color: white; 
+
+}
+
+.tracks-box
+{
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-radius: 10px;
+}
+
+.track-name
+{
+    font-size: 22px;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+}
+
+.track-name-flag-box .track-name-flag
+{
+    width: 75px;
+}
+
+.track-name .track-name-text
+{
+    padding-left: 10px;
+}
+
+.difficulty-level
+{
+    font-size: 48px;
+}

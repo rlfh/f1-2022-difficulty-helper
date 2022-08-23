@@ -1,0 +1,101 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/rlfh/f1-2022-difficulty-helper/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "/home/rlfh/f1-2022-difficulty-helper",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFolder": "pw-report",
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/home/rlfh/f1-2022-difficulty-helper",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.22.2",
+    "workers": 4,
+    "webServer": {
+      "command": "npm run start",
+      "port": 3000,
+      "timeout": 120000,
+      "reuseExistingServer": true
+    },
+    "_globalOutputDir": "/home/rlfh/f1-2022-difficulty-helper",
+    "_configDir": "/home/rlfh/f1-2022-difficulty-helper",
+    "_testGroupsCount": 1
+  },
+  "suites": [
+    {
+      "title": "tests/playwright.spec.ts",
+      "file": "tests/playwright.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "basic test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 804,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/rlfh/f1-2022-difficulty-helper/test-results/tests-playwright-basic-test/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/playwright.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
