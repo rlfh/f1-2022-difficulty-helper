@@ -55,6 +55,7 @@ function App() {
       <div class='row track-input mt-4'>
         <div class='col'>
           <h2>Track</h2>
+          <p>Dataset version - <a href={data.versionUrl}>{data.version}</a></p>
           <Tracks 
             data={data}
             targetLap={lap} />
