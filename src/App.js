@@ -48,7 +48,8 @@ function App() {
         <div class='col'>
           <h2>Your average lap time</h2>
           <ChronoTime 
-            value={lap} 
+            value={lap}
+            setLap={setLap} 
             onChange={(t) => handleChange(t)} />
         </div>
       </div>

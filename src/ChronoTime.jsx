@@ -63,7 +63,7 @@ class ChronoTime extends React.Component
           console.log(newTimeStr);
           console.log(newTime.toString());
 
-          this.props.onChange(toMillis(newTime));
+          this.props.setLap(toMillis(newTime));
             
         }                        
   
