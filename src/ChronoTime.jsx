@@ -44,14 +44,17 @@ class ChronoTime extends React.Component
           {
               case 'm':                
                 newTimeStr = ''.concat(selection, ':', this.state.timeSec, ':', this.state.timeMilli);
+                this.state.timeMin = selection
                 break;
               
               case 's':                  
                 newTimeStr = ''.concat(this.state.timeMin, ':', selection, ':', this.state.timeMilli);
+                this.state.timeSec = selection
                 break;
               
               case 'ms':
                 newTimeStr = ''.concat(this.state.timeMin, ':', this.state.timeSec, ':', selection);
+                this.state.timeMilli = selection
                 break;
   
               default:
